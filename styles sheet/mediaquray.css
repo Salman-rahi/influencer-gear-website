@@ -2,14 +2,32 @@
     .navbar,
     .nav-links{
         flex-direction: column;
-    }
-    .banner {
-        flex-direction: column-reverse;
         
-        align-items: center;
+    }
+    .nav-titel, .nav-links {
+        margin-left: 20px;
     }
 
-    .banner-content, .banner-img{
+    .nav-list{
+        margin-left: 0px;
+    }
+    
+
+    .banner {
+        width: 100%;
+        height: auto;
+        flex-direction: column-reverse;
+    }
+
+    .banner-content{
         margin: 0 20px;
+    }
+
+    .website-link{
+        width: 100%;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        margin-left: 20px;
+       
     }
 }
