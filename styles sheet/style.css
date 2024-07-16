@@ -10,3 +10,126 @@
 body{
     font-family: "Poppins", sans-serif;
 }
+
+.display-flex{
+    display: flex;
+}
+
+.text-primary-color{
+    color: rgb(58, 58, 58);
+}
+
+.btn-primary{
+    background-color: #E02C6D;
+    color: white;
+    border: none;
+}
+
+
+
+/***************** Header styles Start***********************************/
+
+
+/* ---------------- navbar styles start-------------------*/
+.navbar{
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 96px;
+    
+}
+
+.nav-titel {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.nav-links{
+    list-style: none;
+    margin-left: 34px;
+}
+
+.nav-list{
+    margin-left: 34px;
+    text-decoration: none;
+}
+
+.nav-list a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    
+}
+
+/* ------------Navbar style ends------------------------------- */
+
+/* ----------Banner style Start------------------------- */
+
+.banner{
+    width: 1440px;
+    margin: 0px auto;
+    gap: 133px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 50px 0px 70px 0px;
+    /* border: 1px solid red; */
+}
+
+.banner-content{
+    width: 50%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+.banner-titel{
+    font-size: 3.25rem;
+    font-weight: 700;
+}
+
+.banner-des{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.banner-btn{
+    padding: 10px 24px 10px 24px;
+    border-radius: 41px;
+    text-align: center;
+}
+
+#icon-branner{
+    padding-left: 10px;
+}
+
+.banner-img{
+    width: 50%;
+    /* border: 1px solid red; */
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+
+
+/* *************** Header Styles End******************************** */
+
+/* =================================================================== */
+
+/* **************** MainBody style start *************************** */
+
+/* -----------website-link styles Start-------------------------------  */
+.website-link{
+    width: 1100px;
+
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    align-items: center;
+}
